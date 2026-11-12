@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#80000000"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnFloatingLogo"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@android:drawable/ic_menu_compass"
+        android:backgroundTint="#00FF00"
+        android:elevation="10dp" />
+
+    <TextView
+        android:id="@+id/txtSignalStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="AI READY"
+        android:textColor="#00FF00"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
